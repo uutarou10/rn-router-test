@@ -1,0 +1,3 @@
+rootProject.name = 'rnRouterTest'
+
+include ':app'
