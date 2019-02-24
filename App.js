@@ -77,6 +77,7 @@ class FirstView extends React.Component {
 const SecondView = () => {
   return (
     <View style={styles.container}>
+      <View style={{ width: 3, height: 3, position: 'absolute', x: 0, y: 0, backgroundColor: 'orange' }} />
       <Text style={styles.header}>SecondView</Text>
       <TouchableOpacity
         style={styles.button}
